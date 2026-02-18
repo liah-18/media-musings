@@ -273,10 +273,159 @@ footer a {
 
 /* TABLET
 ---------------------------------------*/
+  @media (max-width: 768px) {
 
+    div.wrapper {
+      width: 95%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    header {
+      text-align: center;
+      flex-direction: column;
+    }
+
+    nav.topnav {
+      margin: 1rem;
+    }
+
+    main.homepage {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    article.blog {
+      grid-column: 1/5;
+      grid-row: 1/2;
+    }
+
+    main.homepage aside.recent {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    main.homepage aside.links {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
+    section.campus {
+      grid-column: 1/5;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section.campus figure {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: .5rem;
+      align-items: center;
+    }
+
+    article.blog h2 {
+      font-size: 170%;
+    }
+
+    article.blog p {
+      font-size: 165%;
+      line-height: 170%;
+    }
+
+    main.homepage aside h3 {
+      font-size: 115%;
+    }
+
+    main.homepage aside li {
+      margin-bottom: 1rem;
+    }
+
+    main.homepage aside a {
+      font-size: 110%;
+      padding: 1.5rem;
+    }
+
+    section.campus h3 {
+      font-size: 105%;
+    }
+
+    section.campus figcaption {
+      font-size: 100%;
+      text-align: center;
+    }
+
+  }
 
 
 
 /* PHONE
 ---------------------------------------*/
+  @media (max-width: 480px) {
 
+    div.wrapper {
+      width: 100%;
+      margin: 0;
+    }
+
+    header {
+      padding: 1rem;
+      margin: 0;
+    }
+
+    nav.topnav {
+      width: 98%;
+      margin: .5rem;
+    }
+
+    nav.topnav ul {
+      flex-direction: column;
+    }
+
+    nav.topnav li {
+      border-bottom: 1px;
+    }
+
+    nav.topnav li:last-of-type {
+      border: none;
+    }
+
+    main.homepage {
+      grid-template-columns: 1fr;
+    }
+
+    article.blog {
+      grid-column: 1/3;
+      font-size: 90%;
+      line-height: 50%;
+    }
+
+    article.blog h2 {
+      font-size: 135%;
+    }
+
+    main.homepage aside {
+      display: none;
+    }
+
+    section.campus {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+    }
+
+    section.campus h3 {
+      font-size: 120%;
+    }
+
+    section.campus figure {
+      background-color: rgb(245, 171, 196);
+      padding-right: 5rem;
+      border-radius: 10%;
+    }
+
+    section.campus figcaption {
+      font-size: 100%;
+      line-height: 95%;
+      text-align: left;
+    }
+
+  }
