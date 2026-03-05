@@ -57,7 +57,7 @@ header h1 {
 /* ⬇ The h1's link */
 header h1 a {
 
-  color: rgba(223, 15, 129, 0.575);
+  color: rgba(244, 11, 127, 0.848);
 }
 
 a:hover {
@@ -98,9 +98,9 @@ nav.topnav a {
 	text-transform: uppercase;
 	display: block;
 	text-decoration: none;
-	color: rgb(215, 43, 129); /* ← you can change this */
+	color: rgb(232, 45, 139); /* ← you can change this */
   transition: all 0.75s ease-in-out;
-  text-shadow: 1px 1px pink;
+  text-shadow: 1px 1px gray;
   font-weight: bolder;
 }
 
